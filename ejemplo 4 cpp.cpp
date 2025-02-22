@@ -9,10 +9,10 @@ int main() {
 
 // 2. Voy a potenciar un numero al cuadrado, para esto pongo el #include <math.h> al inicio
 //para tener acceso al comando pow(), y pongo primero la base y luego el expnoniente, en este caso siendo al cuadrado.
-	int tercio = pow(numero, 2); 
+	int cuadrado = pow(numero, 2); 
 
 // 3. Mostrar el resultado
-	cout << tercio << endl;
+	cout << cuadrado << endl;
 
 	return 0;
 }
